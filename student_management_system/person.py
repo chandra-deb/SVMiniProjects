@@ -5,9 +5,9 @@ class Person:
         self.address = address
 
     def display_person_info(self):
-        print(f'''
-                Name: {self.name}
-                Age: {self.age}
-                Address: {self.address}
-                '''
+        print(f'\n'
+              f'Name: {self.name}\n'
+              f'Age: {self.age}\n'
+              f'Address: {self.address}\n'
+              f'                '
               )

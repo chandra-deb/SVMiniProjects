@@ -1,1 +1,57 @@
-{"courses": [{"course_name": "Physics", "course_code": "PHY1", "instructor": "Shim", "students": ["1"]}], "students": [{"name": "Chandra", "id": "1", "age": 1, "address": "Dhaka", "courses": ["PHY1"], "grades": {}}]}
+{
+  "courses": [
+    {
+      "course_name": "Physics",
+      "course_code": "PHY1",
+      "instructor": "Jae Shim",
+      "students_ids": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "course_name": "Calculus",
+      "course_code": "CALC1",
+      "instructor": "Hamid",
+      "students_ids": [
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "name": "Chanra",
+      "id": "1",
+      "age": 1,
+      "address": "Dhaka",
+      "courses_codes": [
+        "PHY1",
+        "CALC1"
+      ],
+      "grades": {
+        "Physics": "A"
+      }
+    },
+    {
+      "name": "2",
+      "id": "2",
+      "age": 1,
+      "address": "Dhaka",
+      "courses_codes": [
+        "CALC1"
+      ],
+      "grades": {}
+    },
+    {
+      "name": "Suvro",
+      "id": "3",
+      "age": 1,
+      "address": "Panchagarh",
+      "courses_codes": [
+        "PHY1"
+      ],
+      "grades": {}
+    }
+  ]
+}

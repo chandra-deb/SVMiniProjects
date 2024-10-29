@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "course_name": "Physics",
+      "course_code": "PHY1",
+      "instructor": "Lemyson",
+      "students_ids": [
+        "1"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "name": "Chandra",
+      "id": "1",
+      "age": 1,
+      "address": "Dhaka",
+      "courses_codes": [
+        "PHY1"
+      ],
+      "grades": {
+        "Physics": "A"
+      }
+    },
+    {
+      "name": "Suvro",
+      "id": "2",
+      "age": 1,
+      "address": "Thakurgao",
+      "courses_codes": [],
+      "grades": {}
+    }
+  ]
+}
