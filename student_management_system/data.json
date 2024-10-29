@@ -1,0 +1,1 @@
+{"courses": [{"course_name": "Physics", "course_code": "PHY1", "instructor": "Shim", "students": ["1"]}], "students": [{"name": "Chandra", "id": "1", "age": 1, "address": "Dhaka", "courses": ["PHY1"], "grades": {}}]}

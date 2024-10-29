@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+      .header {
+        background-color: #b3e0f2;
+        text-align: center;
+        padding: 20px;
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        height: 88vh;
+      }
+      .left-sidebar {
+        text-align: center;
+        width: 15%;
+        background-color: #47bcd1;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .right-sidebar {
+        text-align: center;
+        width: 15%;
+        background-color: #8ddb4d;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .content {
+        text-align: center;
+        width: 80%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .footer {
+        background-color: #b3e0f2;
+        text-align: center;
+        padding: 20px;
+        font-size: 2em;
+        width: auto;
+        bottom: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">Header</div>
+    <div style="left: 0; right: 0">
+      <div class="container">
+        <div class="left-sidebar">
+          <p>sidebar</p>
+        </div>
+        <div class="content">
+          <p>Content</p>
+        </div>
+        <div class="right-sidebar">
+          <p>sidebar</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">Footer</div>
+  </body>
+</html>
